@@ -1,0 +1,19 @@
+To get the numerical ID of the channel, you must go through the following steps
+
+1.Start the @JsonDumpBot bot
+
+2.Forward the last message of the target channel to the bot
+
+3.The bot will send you channel information in a message
+Look for the "forward_from_chat" in the bot message
+
+4. After finding the desired text
+Copy the ID below the desired text
+Sample channel ID:
+-100123456789
+
+5.Put the ID in place of the number "0" in front of the "TargetChannel" variable in the "main.py" file
+
+6.Run the "Debug.py" file to fix any problems in the program files
+
+7.Run "main.py"
